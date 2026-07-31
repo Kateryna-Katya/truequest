@@ -189,3 +189,113 @@ margin-right: auto;
 }
   
 }
+/* Fabulous Gameplay */
+.features-pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    min-height: 6px;
+    margin-top: 20px;
+}
+
+.features-pagination-bullet {
+    display: block;
+    flex-shrink: 0;
+    padding: 0;
+    margin: 0 !important;
+    border: none;
+    background-color: #52b6ff;
+    cursor: pointer;
+    transition:
+        width 250ms ease,
+        height 250ms ease,
+        border-radius 250ms ease,
+        opacity 250ms ease;
+}
+.features-pagination-bullet.features-bullet-active {
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
+    opacity: 1;
+}
+.features-pagination-bullet.features-bullet-next {
+    width: 4px;
+    height: 4px;
+    border-radius: 2px;
+    opacity: 1;
+}
+.features-pagination-bullet.features-bullet-small {
+    width: 3px;
+    height: 3px;
+    border-radius: 2px;
+    opacity: 1;
+}
+.features-pagination-bullet-current {
+    background-color: #52b6ff;
+}
+.features-swiper{
+ margin-top: 32px;   
+}
+.features-swiper .swiper-slide{
+border: 1px solid #ff4d8c;
+    border-radius: 28px;
+    padding: 16px;
+    width: 343px;
+    height: 170px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+gap: 16px;
+}
+.features-slide-text{
+opacity: 0.7;
+font-size: 15px;
+    line-height: 1.6;
+}
+.features-swiper .f2{
+border: 1px solid #9d85ff;
+}
+.features-swiper .f3 {
+border: 1px solid #52b6ff;
+}
+.features-swiper .f4 {
+border: 1px solid #4cd175;
+}
+.features-container h2{
+border: 1px solid #4cd175;
+margin-left: auto;
+margin-right: auto;
+width: 194px;
+color: #4cd175;
+}
+.features-container h3{
+color: #2b2129;
+}
+@media only screen and (min-width: 1440px) {
+.features-container{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.features-swiper{
+    margin-top: 64px;
+}
+.features-pagination{
+    display: none;
+}
+.features-swiper .swiper-wrapper{
+    justify-content: center;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+.features-swiper .swiper-slide{
+padding: 32px;
+    width: 410px;
+    height: 204px;
+}
+.features-swiper .f4,
+.features-swiper .f5{
+width: 628px;
+}
+}
