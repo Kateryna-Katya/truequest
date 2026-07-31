@@ -103,7 +103,7 @@ function initMobileSwipers() {
     gallerySwiper = new Swiper('.gallery-swiper', {
       modules: [Autoplay],
 
-      slidesPerView: 1.2,
+      slidesPerView: 1.5,
       spaceBetween: 16,
       loop: true,
       speed: 700,
