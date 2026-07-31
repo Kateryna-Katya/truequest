@@ -116,8 +116,8 @@ function initMobileSwipers() {
     reviewsSwiper = new Swiper('.reviews-swiper', {
       modules: [Autoplay],
 
-      slidesPerView: 1.2,
-      spaceBetween: 16,
+      slidesPerView: 1.45,
+      spaceBetween: 8,
       loop: true,
       speed: 700,
 
