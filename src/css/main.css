@@ -622,3 +622,38 @@ font-family: "Gabarito", sans-serif;
     width: 652px;
     }
 }
+/* Contact */
+.contact-container{
+    padding-left: 0;
+    padding-right: 0;
+}
+.contact-wrapper{
+border-radius: 48px;
+    padding: 64px;
+    width: 375px;
+    height: 302px;
+    background: linear-gradient(135deg, #ffd1dc -23.79%, #bce5fe 123.79%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact-wrapper h2{
+font-family: "Gabarito", sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 1.2;
+    text-align: center;
+    color: #2b2129;
+    padding: 0;
+    border: none;
+}
+@media only screen and (min-width: 1440px) {
+.contact-container{
+padding: 96px 216px;
+}
+.contact-wrapper{
+border-radius: 64px;
+    width: 1008px;
+    height: 302px;
+}   
+}
