@@ -354,3 +354,64 @@ width: 302px;
     height: 398px;
 } 
 }
+/* Pure Joy */
+.pure-section h2{
+border: 1px solid #ff4d8c;
+width: 106px;
+margin-left: auto;
+margin-right: auto;
+color: #ff4d8c;
+}
+.pure-list{
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.pure-item{
+border: 1px solid #ff4d8c;
+    border-radius: 20px;
+    padding: 12px;
+    width: 343px;
+    height: 110px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.p2{
+border: 1px solid #9d85ff;
+}
+.p3 {
+border: 1px solid #52b6ff;
+}
+.p4 {
+border: 1px solid #4cd175;
+}
+.pure-item-title{
+font-family: "Gabarito", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+text-align: left;
+    line-height: 1.22222;
+    color: #2b2129;
+    margin-bottom: 4px;
+}
+.pure-item-text{
+font-size: 14px;
+    line-height: 1.42857;
+opacity: 0.7;
+text-align: left;
+}
+@media only screen and (min-width: 1440px) {
+.pure-list{
+width: 628px;
+margin-left: auto;
+margin-right: auto;
+}
+.pure-item{
+padding: 24px;
+    width: 628px;
+    height: 106px;
+}
+}
