@@ -1,0 +1,95 @@
+@import url('./styles.css');
+
+.background {
+background: #f8f9fa;
+color: #2d2d2d;
+    text-align: left;
+}
+.policy-container{
+    padding-top: 110px;
+}
+.privacy-title {
+font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.2;
+    color: #1a1a1a;
+    padding: 0;
+    border: none;
+text-transform: none;
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: 24px;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.policy-subtitle {
+font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 1.27273;
+    color: #1a1a1a;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+.policy-link {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 30px;
+}
+
+.policy-list {
+    list-style-type: disc;
+    padding-left: 30px;
+
+}
+
+.underline {
+text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #1a73e8;
+
+}
+
+.word-break {
+    word-break: break-all;
+}
+
+.text {
+    margin-top: 8px;
+}
+
+.policy-number {
+    padding-left: 20px;
+}
+
+
+.policy-span {
+    font-weight: 700;
+}
+
+.span-text {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.44;
+    color: #fff;
+}
+
+
+@media only screen and (min-width: 1440px) {
+    .policy-container {
+        padding-left: 80px;
+        padding-right: 90px;
+    }
+
+
+}
